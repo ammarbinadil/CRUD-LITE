@@ -16,7 +16,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/accounts")
 @RequiredArgsConstructor
-@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5173", "https://crud-lite-prototype.vercel.app"})
+@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5173", "https://crud-lite-prototype-1.vercel.app"})
 public class AccountController {
 
     private final AccountService accountService;
